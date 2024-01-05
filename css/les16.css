@@ -119,3 +119,33 @@ footer {
 	padding: 30px;
 	border-radius: 20px;
 }
+
+
+.back {
+	width: 50%;
+	height: 75px;
+	border-radius: 45px;
+	background-color: #679b9b;
+	color: #ffeadb;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+.buttons {
+	margin-top: 20px;
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.button_text {
+	font-weight: 800;
+	color: #ffeadb;
+	font-size: 18px;
+	margin: 0 auto;
+}
