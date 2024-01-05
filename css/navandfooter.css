@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+nav {
+  background-color: #679b9b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.nav_h2 {
+  color: #ffeadb;
+}
+
+footer {
+  background-color: rgba(103, 155, 155, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.footer_h2 {
+  color: rgba(255, 234, 219, 0.7);
+}

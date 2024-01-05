@@ -1,0 +1,121 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body {
+	background-color: #f7c5a8;
+}
+
+nav {
+	background-color: #679b9b;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+}
+
+.nav_h2 {
+	color: #ffeadb;
+	font-size: 20px;
+}
+
+footer {
+	background-color: rgba(103, 155, 155, 0.7);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	margin-top: 30px;
+}
+
+.footer_h2 {
+	color: rgba(255, 234, 219, 0.7);
+	font-size: 20px;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.harac {
+	font-size: 18px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #679b9b;
+	flex: 0 1 auto;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.t {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.f {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.button {
+	width: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 15px;
+	background-color: #679b9b;
+	padding: 15px;
+	border-radius: 15px;
+}
+
+.button>a {
+	text-decoration: none;
+	color: #ffeadb;
+	font-size: 21px;
+}
+
+.roles {
+	/* font-size: 18px; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #679b9b;
+	margin-bottom: 30px;
+}
+
+.role {
+	background-color: #fff;
+	padding: 15px;
+	border-radius: 15px;
+	width: 80%;
+	font-size: 21px;
+}
+
+.dz {
+	font-weight: normal;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #679b9b;
+	flex: 0 1 auto;
+	/* margin-top: 30px; */
+	/* margin-bottom: 50px; */
+
+}
+
+.dz>p {
+	width: 80%;
+	font-size: 30px;
+	font-weight: 700;
+	background-color: #fff;
+	padding: 30px;
+	border-radius: 20px;
+}
